@@ -1,7 +1,13 @@
-import { useTheme } from 'native-base';
-import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
+import { useTheme } from "native-base";
+import { DefaultTheme, NavigationContainer } from "@react-navigation/native";
 
-import { AppRoutes } from './app.routes';
+import { AppRoutes } from "./app.routes";
+import { Notification } from "../components/Notification";
+import { useEffect, useState } from "react";
+import OneSignal, {
+  NotificationReceivedEvent,
+  OSNotification,
+} from "react-native-onesignal";
 
 export function Routes() {
   const { colors } = useTheme();
@@ -9,9 +15,28 @@ export function Routes() {
   const theme = DefaultTheme;
   theme.colors.background = colors.gray[700];
 
+  const [notification, setNotification] = useState<OSNotification>();
+
+  useEffect(() => {
+    const unsubscribe = OneSignal.setNotificationWillShowInForegroundHandler(
+      (notificationReceivedEvent: NotificationReceivedEvent) => {
+        const response = notificationReceivedEvent.getNotification();
+
+        setNotification(response);
+      }
+    );
+    return () => unsubscribe;
+  }, []);
+
   return (
     <NavigationContainer theme={theme}>
       <AppRoutes />
+      {notification?.title && (
+        <Notification
+          data={notification}
+          onClose={() => setNotification(undefined)}
+        />
+      )}
     </NavigationContainer>
   );
 }
