@@ -6,3 +6,7 @@ export function tagUserEmailCreate() {
     user_email: "caio@email.com",
   });
 }
+
+export function tagCartUpdate(itemsCount: string) {
+  OneSignal.sendTag("cart_items_count", itemsCount);
+}

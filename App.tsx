@@ -29,9 +29,7 @@ export default function App() {
 
   useEffect(() => {
     // verify if user has clicked on background notification
-    const unsubscribe = OneSignal.setNotificationOpenedHandler(() => {
-      console.log("Notificação aberta");
-    });
+    const unsubscribe = OneSignal.setNotificationOpenedHandler(() => {});
     return () => unsubscribe;
   }, []);
 
