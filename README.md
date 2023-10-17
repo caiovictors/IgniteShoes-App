@@ -42,13 +42,13 @@ $ npx expo run:android
 # 🖼️ Screenshots
 <br />
 
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   **📝 Shoes list**   &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;              **🔔 In-App notification**             &nbsp;  &nbsp;    **🔗 Deep Linking**    &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            **🛒 Cart**
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   **📝 Shoes list**   &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;              **🔔 In-App notification**                 **🔗 Deep Linking**   &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            **🛒 Cart**
 
 <p align="center">
  
-<img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/cb053ab4-6e6c-4724-9f5c-00d12ec3b7b3" alt="create-team" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/e2cc3e6c-9ca8-4efa-9b04-15e39d31bc97" alt="list-teams" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/60fb180c-fdf9-40f6-a1b6-ee56748b40d7" alt="team-players" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/cb053ab4-6e6c-4724-9f5c-00d12ec3b7b3" alt="create-team" width="200"/>&nbsp; &nbsp;
+<img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/e2cc3e6c-9ca8-4efa-9b04-15e39d31bc97" alt="list-teams" width="200"/>&nbsp; &nbsp;
+<img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/60fb180c-fdf9-40f6-a1b6-ee56748b40d7" alt="team-players" width="200"/>&nbsp; &nbsp;
 <img src="https://github.com/caiovictors/IgniteShoes-App/assets/12973109/48f97f0b-b1a9-4e51-87c0-978b98a8654b" alt="team-players" width="200"/>
 
 </p>
